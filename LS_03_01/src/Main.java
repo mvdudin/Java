@@ -1,10 +1,10 @@
-/*Дан произвольный список целых чисел.
+*****************//478ан произвольный список целых чисел.
   1) Нужно удалить из него чётные числа
   2) Найти минимальное значение
   3) Найти максимальное значение
   4) Найти среднее ариф. значение
 */
-import java.util.Collections;
+import java.util.Collections;88oixf00
 import java.util.ArrayList;
 
 public class Main {
@@ -15,10 +15,9 @@ public class Main {
         array.add(4);
         array.add(5);
         array.add(1);
-    }
 
     static void deleteEven(ArrayList<Integer> array) {
-        array.removeIf(n -> (n % 2 == 0));
+        array.removeIf(n -> (n % 2 == 0))
     }
 
     static int minValue(ArrayList<Integer> array) {
